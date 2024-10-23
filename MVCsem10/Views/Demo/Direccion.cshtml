@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Direccion";
+    string name = "Direccion";
+}
+
+<h2>Direccion</h2>
+
+<form>
+    <div>
+        <label for="direccion">@name</label>
+        <input type="text" id="direccion" name="direccion" required />
+    </div>
+    <div>
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required />
+    </div>
+    <div>
+        <label for="codigoPostal">Código Postal:</label>
+        <input type="text" id="codigoPostal" name="codigoPostal" required />
+    </div>
+    <div>
+        <input type="submit" value="Enviar" />
+    </div>
+</form>
